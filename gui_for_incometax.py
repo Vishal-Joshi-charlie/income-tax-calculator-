@@ -32,7 +32,7 @@ def cal():
     lbl.pack()
 
     lbl=Label(myw, text="The total amount with tax is:" +str(price_val+calculation))
-    lbl.pack
+    lbl.pack()
 
     lbl=Label(myw, text="The total cess tax is:"+str(cess))
     lbl.pack()
